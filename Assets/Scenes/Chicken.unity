@@ -4214,7 +4214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1882622956474992, guid: 10fd3a2d8f546df4f8af19c411a0f42e, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Collectible
       objectReference: {fileID: 0}
     - target: {fileID: 4879931433576538, guid: 10fd3a2d8f546df4f8af19c411a0f42e, type: 3}
       propertyPath: m_RootOrder
@@ -9331,7 +9331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1882622956474992, guid: 10fd3a2d8f546df4f8af19c411a0f42e, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Collectible
       objectReference: {fileID: 0}
     - target: {fileID: 4879931433576538, guid: 10fd3a2d8f546df4f8af19c411a0f42e, type: 3}
       propertyPath: m_RootOrder
@@ -17025,7 +17025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1882622956474992, guid: 10fd3a2d8f546df4f8af19c411a0f42e, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Collectible
       objectReference: {fileID: 0}
     - target: {fileID: 4879931433576538, guid: 10fd3a2d8f546df4f8af19c411a0f42e, type: 3}
       propertyPath: m_RootOrder
@@ -20404,7 +20404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1882622956474992, guid: 10fd3a2d8f546df4f8af19c411a0f42e, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Collectible
       objectReference: {fileID: 0}
     - target: {fileID: 4879931433576538, guid: 10fd3a2d8f546df4f8af19c411a0f42e, type: 3}
       propertyPath: m_RootOrder
@@ -32810,6 +32810,7 @@ GameObject:
   - component: {fileID: 1311291817919936}
   - component: {fileID: 1311291817919937}
   - component: {fileID: 95943283659931267}
+  - component: {fileID: 95943283659931268}
   m_Layer: 0
   m_Name: PlayerChicken
   m_TagString: Untagged
@@ -33549,6 +33550,27 @@ MonoBehaviour:
   runningSpeed: 4
   rotationSpeed: 100
   moveDir: {x: 0, y: 0, z: 0}
+--- !u!114 &95943283659931268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311291817919934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7abd9c8df9b604e8c3675694176561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeColor: 0
+  myColor: {r: 0, g: 0, b: 0, a: 0}
+  destroyEnemy: 0
+  destroyCollectibles: 1
+  collisionAudio: {fileID: 0}
+  pushPower: 2
+  scoreUI: {fileID: 0}
+  increaseScore: 1
+  decreaseScore: 1
 --- !u!137 &137954049589448148
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
